@@ -1,0 +1,18 @@
+<h2>Menus</h2>
+<ul class="menus">
+    <li *ngFor="let menu of menus" 
+    [class.selected]="menu === selectedMenu"
+    (click)="onSelect(menu)">
+        {{menu.name}} 
+    </li>
+</ul>
+
+	
+<div *ngIf="selectedMenu">
+ 
+    <h2>{{selectedMenu.name}} Details</h2>
+    <div class="info"><span>Case: </span>{{selectedMenu.case}}</div>
+    <div class="info"><span>Main: </span>{{selectedMenu.main}}</div>
+    <div class="info"><span>Beverage: </span>{{selectedMenu.beverage}}</div>
+    <div class="info"><span>Accessory Pack: </span>{{selectedMenu.accessoryPack}}</div>
+</div>

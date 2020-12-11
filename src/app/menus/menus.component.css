@@ -1,0 +1,42 @@
+.menus {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 20em;
+}
+.menus li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: black;
+  margin: 0.5em;
+  padding: 0.3em 0;
+  height: 1.5em;
+  width: 6em;
+  border-radius: 4px;
+  display: inline-block;
+  text-align: center;
+  color: white;
+}
+.menus li:hover {
+  color: #607d8b;
+  background-color: #ddd;
+  left: 0.1em;
+}
+.menus li.selected {
+  background-color: #cfd8dc;
+  color: white;
+}
+.menus li.selected:hover {
+  background-color: #bbd8dc;
+  color: white;
+}
+
+.menus li.selected {
+  background-color: #cfd8dc;
+  color: white;
+}
+.menus li.selected:hover {
+  background-color: #bbd8dc;
+  color: white;
+}

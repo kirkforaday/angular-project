@@ -1,0 +1,28 @@
+import { Menu } from './menu';
+
+export const MENUS: Menu[] = [
+    {name:"Menu 1", case: "A", main:"Chili with Beans", beverage:"Beverage Powder", accessoryPack:"A"},
+    {name:"Menu 2", case: "A", main:"Beef, Shredded, in Barbecue Sauce", beverage:"Beverage Powder", accessoryPack:"C"},
+    {name:"Menu 3", case: "A", main:"Chicken, Egg Noodles, and Vegetables, in Sauce", beverage:"Beverage Powder", accessoryPack:"A"},
+    {name:"Menu 4", case: "A", main:"Spaghetti with Beef and Sauce", beverage:"Cocoa Powder", accessoryPack:"B"},
+    {name:"Menu 5", case: "A", main:"Chicken Chunks", beverage:"Beverage Powder", accessoryPack:"B"},
+    {name:"Menu 6", case: "A", main:"Beef Taco", beverage:"Beverage Powder", accessoryPack:"A"},
+    {name:"Menu 7", case: "A", main:"Brisket Entree", beverage:"Irish Cream Cappuccino", accessoryPack:"B"},
+    {name:"Menu 8", case: "A", main:"Meatballs in Marinara Sauce", beverage:"Beverage Powder", accessoryPack:"C"},
+    {name:"Menu 9", case: "A", main:"Beef Stew", beverage:"Beverage Powder", accessoryPack:"A"},
+    {name:"Menu 10", case: "A", main:"Chili and Macaroni", beverage:"Beverage Powder", accessoryPack:"A"},
+    {name:"Menu 11", case: "A", main:"Vegetable Crumbles with Pasta", beverage:"French Vanilla Cappuccino", accessoryPack:"B"},
+    {name:"Menu 12", case: "A", main:"Elbow Macaroni in Tomato Sauce", beverage:"Chocolate Protein Powder", accessoryPack:"A"},
+    {name:"Menu 13", case: "B", main:"Cheese Tortellini", beverage:"Beverage Powder", accessoryPack:"C"},
+    {name:"Menu 14", case: "B", main:"Creamy Spinach Fettuccine", beverage:"Chocolate Protein Powder", accessoryPack:"A"},
+    {name:"Menu 15", case: "B", main:"Mexican Style Chicken Stew", beverage:"Cocoa Powder", accessoryPack:"B"},
+    {name:"Menu 16", case: "B", main:"Chicken Burrito Bowl", beverage:"Beverage Powder", accessoryPack:"C"},
+    {name:"Menu 17", case: "B", main:"Maple Pork Patty", beverage:"Beverage Powder", accessoryPack:"A"},
+    {name:"Menu 18", case: "B", main:"Beef Ravioli", beverage:"Beverage Powder", accessoryPack:"C"},
+    {name:"Menu 19", case: "B", main:"Beef Patty", beverage:"Orange Beverage Base", accessoryPack:"A"},
+    {name:"Menu 20", case: "B", main:"Hash Brown Potatoes with Bacon, Peppers, and Onions", beverage:"Orange Beverage Base", accessoryPack:"A"},
+    {name:"Menu 21", case: "B", main:"Lemon Pepper Tuna", beverage:"Beverage Powder", accessoryPack:"B"},
+    {name:"Menu 22", case: "B", main:"Asian Style Beef Strips with Vegetables", beverage:"Cocoa Powder", accessoryPack:"B"},
+    {name:"Menu 23", case: "B", main:"Pepperoni Pizza Slice", beverage:"Chocolate Protein Powder", accessoryPack:"A"},
+    {name:"Menu 24", case: "B", main:"Southwest Style Beef and Black Beans", beverage:"Mocha Cappuccino", accessoryPack:"B"},
+];
